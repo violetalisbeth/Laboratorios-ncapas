@@ -26,7 +26,7 @@ public class HyruleApplication {
                             + " | Precio: " + material.getPrecio())
             );
 
-            System.out.println("\n=== MATERIALES ORDENADOS POR PRECIO DESCENDENTE ====");
+            System.out.println("\n=== MATERIALES ORDENADOS ====");
             materialService.obtenerMaterialesOrdenadosPorPrecioDesc().forEach(material ->
                     System.out.println("Nombre: " + material.getNombre()
                             + " | Precio: " + material.getPrecio())

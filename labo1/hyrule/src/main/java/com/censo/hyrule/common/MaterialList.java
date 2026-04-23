@@ -60,7 +60,7 @@ public class MaterialList {
                 .categoria("Mineral")
                 .efectoCocinado("Ataque")
                 .precio(350)
-                .ubicacionPrincipal("Volcán de Eldin")
+                .ubicacionPrincipal("Volcan de Eldin")
                 .gradoRareza("Legendario")
                 .build());
 
